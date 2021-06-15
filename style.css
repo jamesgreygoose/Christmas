@@ -1,0 +1,66 @@
+#choices {
+  display: block;
+  padding: 3vw;
+  text-align: center;
+  width: 50vw;
+}
+
+button {
+  height: 10vh;
+  width: 80vw;
+  padding: 5vw;
+  margin: 3vw 5vw;
+  background-color: yellow;
+  border: solid black 1px;
+}
+
+#back-to-start {
+  height: 10vh;
+  width: 80vw;
+  padding: 5vw;
+  margin: 3vw 5vw;
+  background-color: red;
+  border: solid black 1px;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
+  background-color: lightgoldenrodyellow;
+}
+
+#back-to-start:hover {
+  transform: scale(1.1, 1.1);
+  background-color: lightcoral;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10vw;
+  padding-top: 5vh;
+  color: goldenrod;
+}
+
+h4 {
+  text-align: center;
+  font-size: 9vw;
+  padding-top: 1vh;
+  color: goldenrod;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+video {
+  border: solid goldenrod 1px;
+  display: block;
+  margin: 3vh auto;
+}
+
+body {
+  background-image: url("https://media.npr.org/assets/img/2020/08/27/nasa-goods-real_wide-9168d715c2d4c488d7a0e594b397d7abdd969d9d.png");
+}
