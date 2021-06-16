@@ -40,13 +40,6 @@ h1 {
   color: goldenrod;
 }
 
-h4 {
-  text-align: center;
-  font-size: 9vw;
-  padding-top: 1vh;
-  color: goldenrod;
-}
-
 p {
   width: 80%;
   text-align: center;
@@ -71,4 +64,67 @@ img {
   border: solid 1vh yellow;
   display: block;
   margin: 3vh auto;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+iframe,
+#iframe {
+  display: block;
+  margin: 0 auto;
+  border: solid 1vw yellow;
+  border-radius: 0.5vw;
+  width: 80vw;
+  height: 60vh;
+}
+
+h4 {
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin: 10vh auto;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 7vw;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #7794ff, #44107a, #ff1361, #fff800);
+  animation: 0.8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
 }
