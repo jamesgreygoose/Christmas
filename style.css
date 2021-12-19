@@ -15,10 +15,9 @@ button {
 }
 
 #back-to-start {
-  height: 10vh;
+  height: 14vh;
   width: 80vw;
-  padding: 5vw;
-  margin: 3vw 5vw;
+  margin: 3vw 5vw 3vw 6vw;
   background-color: red;
   border: solid black 1px;
 }
@@ -49,7 +48,7 @@ p {
 }
 
 video {
-  border: solid goldenrod 3px;
+  border: outset goldenrod 3px;
   display: block;
   margin: 3vh auto;
   width: 80vw;
@@ -62,7 +61,7 @@ body {
 
 img {
   width: 80%;
-  border: solid 1vh yellow;
+  border: outset 1vh yellow;
   display: block;
   margin: 3vh auto;
 }
